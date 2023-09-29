@@ -9,6 +9,9 @@ import Footer from './components/Footer'
 
 function App() {
 
+const [isSearchBar, setIsSearchBar] = useState(false);
+
+
     return (
         <div className='font-sans'>
             <NavBar />
